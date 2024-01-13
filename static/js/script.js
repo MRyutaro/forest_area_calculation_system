@@ -7,6 +7,7 @@ map.setView([lat, lng], zoom); // 緯度経度、ズームレベルを設定す�
 
 // タイルレイヤを生成し、地図に追加する
 // 今回はOpenStreetMapを表示する
+// zはズームレベル、xとyはタイルの座標。sはサブドメインで、複数のサーバーを使って負荷を分散させるために使われるランダム値。
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
   {
     // 著作権の表示
