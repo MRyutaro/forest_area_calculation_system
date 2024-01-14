@@ -1,5 +1,5 @@
-let lat = 35.7100069; // 緯度
-let lng= 139.8108103; // 経度
+let lat = 34.686; // 緯度
+let lng= 135.520; // 経度
 let zoom = 12; // ズームレベル
 
 let map = L.map("map"); // 地図の生成
